@@ -358,7 +358,7 @@ RedisClient.prototype.destroy = function () {
 
 // http://redis.io/commands.json
 exports.commands = [
-  'APPEND', 'AUTH', 'BGREWRITEAOF', 'BGSAVE', 'BLPOP', 'BRPOP', 'BRPOPLPUSH', 'CONFIG GET',
+  'APPEND', 'AUTH', 'BGREWRITEAOF', 'BGSAVE', 'BLPOP', 'BRPOP', 'BRPOPLPUSH', 'CONFIG', 'CONFIG GET',
   'CONFIG SET', 'CONFIG RESETSTAT', 'DBSIZE', 'DEBUG OBJECT', 'DEBUG SEGFAULT', 'DECR',
   'DECRBY', 'DEL', 'DISCARD', 'ECHO', 'EXEC', 'EXISTS', 'EXPIRE', 'EXPIREAT', 'FLUSHALL',
   'FLUSHDB', 'GET', 'GETBIT', 'GETRANGE', 'GETSET', 'HDEL', 'HEXISTS', 'HGET', 'HGETALL',
